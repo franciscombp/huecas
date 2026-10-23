@@ -61,6 +61,12 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+/* sin zoom por doble toque: al tocar rápido el mismo botón el celular
+   ampliaba la página y no había cómo volver. "manipulation" deja el
+   pellizco (zoom de accesibilidad) y quita solo el doble toque.
+   :where(*) pesa cero, así que lo que ya pide touch-action: none
+   (los objetos que se arrastran) gana sin tocarlo. */
+:where(*) { touch-action: manipulation; }
 html { -webkit-text-size-adjust: 100%; font-size: 17px; }
 html, body { height: 100%; overflow: hidden; }
 
