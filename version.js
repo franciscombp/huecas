@@ -7,5 +7,5 @@
    nota en una línea, como para leerla en un toast.
    ============================================================ */
 
-const APP_VERSION = 'v25';
-const APP_NOTA = 'El mercado y el cuaderno ahora asoman como pestañas de recetario, coral y de fiesta.';
+const APP_VERSION = 'v26';
+const APP_NOTA = 'Tocar rápido el mismo botón ya no amplía la pantalla; el pellizco para ampliar sigue funcionando.';
